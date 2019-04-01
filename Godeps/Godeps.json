@@ -1,0 +1,118 @@
+{
+	"ImportPath": "github.com/vtex/golang-server",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/beorn7/perks/quantile",
+			"Rev": "3a771d992973f24aa725d07868b467d1ddfceafb"
+		},
+		{
+			"ImportPath": "github.com/gin-contrib/sse",
+			"Rev": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin",
+			"Comment": "v1.2-129-geeb5784",
+			"Rev": "eeb57848cac06c360a3c262837394051018b8f66"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/binding",
+			"Comment": "v1.2-129-geeb5784",
+			"Rev": "eeb57848cac06c360a3c262837394051018b8f66"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/json",
+			"Comment": "v1.2-129-geeb5784",
+			"Rev": "eeb57848cac06c360a3c262837394051018b8f66"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/render",
+			"Comment": "v1.2-129-geeb5784",
+			"Rev": "eeb57848cac06c360a3c262837394051018b8f66"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Comment": "v1.2.0-2-gb27b920",
+			"Rev": "b27b920f9e71b439b873b17bf99f56467623814a"
+		},
+		{
+			"ImportPath": "github.com/json-iterator/go",
+			"Comment": "1.0.4-14-g96fcb84",
+			"Rev": "96fcb84835b0447f3de9d7addb313c5487071533"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Comment": "v0.0.3-7-g6ca4dbf",
+			"Rev": "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c"
+		},
+		{
+			"ImportPath": "github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"Comment": "v1.0.0-2-gc12348c",
+			"Rev": "c12348ce28de40eed0136aa2b644d0ee0650e56c"
+		},
+		{
+			"ImportPath": "github.com/prometheus/client_golang/prometheus",
+			"Comment": "v0.9.0-pre1-126-g5b23715",
+			"Rev": "5b23715facdef1452016bae512489c3cdf82458c"
+		},
+		{
+			"ImportPath": "github.com/prometheus/client_golang/prometheus/promhttp",
+			"Comment": "v0.9.0-pre1-126-g5b23715",
+			"Rev": "5b23715facdef1452016bae512489c3cdf82458c"
+		},
+		{
+			"ImportPath": "github.com/prometheus/client_model/go",
+			"Comment": "model-0.0.2-18-g5c3871d",
+			"Rev": "5c3871d89910bfb32f5fcab2aa4b9ec68e65a99f"
+		},
+		{
+			"ImportPath": "github.com/prometheus/common/expfmt",
+			"Rev": "c7de2306084e37d54b8be01f3541a8464345e9a5"
+		},
+		{
+			"ImportPath": "github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"Rev": "c7de2306084e37d54b8be01f3541a8464345e9a5"
+		},
+		{
+			"ImportPath": "github.com/prometheus/common/model",
+			"Rev": "c7de2306084e37d54b8be01f3541a8464345e9a5"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs",
+			"Rev": "05ee40e3a273f7245e8777337fc7b46e533a9a92"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs/internal/util",
+			"Rev": "05ee40e3a273f7245e8777337fc7b46e533a9a92"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs/nfs",
+			"Rev": "05ee40e3a273f7245e8777337fc7b46e533a9a92"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs/xfs",
+			"Rev": "05ee40e3a273f7245e8777337fc7b46e533a9a92"
+		},
+		{
+			"ImportPath": "github.com/ugorji/go/codec",
+			"Rev": "84cb69a8af8316eed8cf4a3c9368a56977850062"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "a204229cd828a74741ee7b5da9bf4794497f85ed"
+		},
+		{
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.18.2",
+			"Rev": "5f1438d3fca68893a817e4a66806cea46a9e4ebf"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "287cf08546ab5e7e37d55a84f7ed3fd1db036de5"
+		}
+	]
+}
