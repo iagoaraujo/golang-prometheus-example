@@ -8,16 +8,18 @@ import (
 )
 
 func main() {
+	metrics.RegisterCustomMetrics()
+
 	r := gin.Default()
 	router := r.Group("/hello")
 	{
-		router.GET("/", func(c *gin.Context) {
+		router.GET("/", metrics.MetricsMiddleware("/hello"), func(c *gin.Context) {
 			c.JSON(200, gin.H{
 				"message": "Hello World!!",
 			})
 		})
 
-		router.GET("/myself", func(c *gin.Context) {
+		router.GET("/myself", metrics.MetricsMiddleware("/hello/myself"), func(c *gin.Context) {
 			_, err := http.Get("http://localhost:8080/hello")
 			if err != nil {
 				c.JSON(500, err)
